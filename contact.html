@@ -25,16 +25,62 @@
   	<div class="container" style="max-width: 960px">
     	<header style="background-image: url(images/Portfolio_headerBG.png); margin-bottom: 30px; height: 100px">
     		<h1 style="text-align: center; padding-top: 26px; font-family: Griffy">Roland's Portfolio</h1>
-    	</header>	
+    	</header>
+    	<!-- Navigation-->	
     	<ul class="nav nav-tabs nav-justified" style="margin-bottom: 15px">
 		  <li><a href="index.html">My Work</a></li>
 		  <li><a href="profile.html">My Profile</a></li>
 		  <li><a href="contact.html">Contact Me</a></li>
 		</ul>
 		
-		
-	</div>   
+		<!-- Contact Form -->
+		<div style="">
+			<div style="margin-top:33px">
+				<div class="panel panel-default" style="margin:0 auto;width:500px">
+					<div class="panel-heading">
+						<h2 class="panel-title">Contact Me</h2>
+					</div>
+					<div class="panel-body">
+						<form name="contactform" method="post" action="contactMessage.php" class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="inputName" class="col-lg-2 control-label">Name</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputSubject" class="col-lg-2 control-label">Subject</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="What is on your mind?"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-offset-2 col-lg-10">
+									<button type="submit" class="btn btn-primary">
+										Send Message
+									</button>
+								</div>
+							</div>
+						</form>
 
+					</div>
+				</div>
+		</div>
+		
+    </div>  	
+		 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
