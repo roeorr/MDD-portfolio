@@ -31,7 +31,7 @@ $message
 ";
 
 /* Send the message using mail() function */
-mail($myemail, $subject, $message);
+mail ("rorr19@gmail.com", $subject, $message);
 
 /* Redirect visitor to the thank you page */
 header('Location: http://23.253.148.205/index.html');
