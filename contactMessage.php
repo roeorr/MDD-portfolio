@@ -34,7 +34,7 @@ $message
 mail ("rorr19@gmail.com", $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://23.253.148.205/index.html');
+header('Location: http://23.253.148.205/thankyou.html');
 exit();
 
 /* Functions used */
