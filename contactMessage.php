@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail = "rorr19@gmail.com";
+$myemail = "roeorr@fullsail.edu";
 
 /* Check all form inputs using check_input function */
 $name = check_input($_POST['inputName'], "Your Name");
@@ -31,7 +31,7 @@ $message
 ";
 
 /* Send the message using mail() function */
-mail ("rorr19@gmail.com", $subject, $message);
+mail ("roeorr@fullsail.edu", $subject, $message);
 
 /* Redirect visitor to the thank you page */
 header('Location: http://23.253.148.205/thankyou.html');
