@@ -31,7 +31,7 @@ $message
 ";
 
 /* Send the message using mail() function */
-mail ("roeorr@fullsail.edu", $subject, $message);
+mail ($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
 header('Location: http://23.253.148.205/thankyou.html');
